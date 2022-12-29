@@ -1,0 +1,117 @@
+.header{
+
+  height: 80px;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  background-color: aliceblue;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top:0;
+  flex-direction: row;
+  margin-bottom: 150px;
+  border-radius: 25px;
+  
+}
+
+.hpadding{
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.header-color{
+    background-color: aliceblue;
+}
+
+.nav-color{
+  color: rgb(6, 163, 210) !important;
+  font-size: 20px;
+  padding-left:  0.8rem !important;
+  padding-right: 0.8rem !important;
+}
+
+.nav-color1{
+
+  color: rgb(0, 0, 0)!important;
+  background-color: rgba(11, 61, 161, 0.326) !important;
+  font-size: 20px;
+  padding-left:  0.8rem !important;
+  padding-right: 0.8rem !important;
+  border-radius: 5px;
+
+}
+
+
+.nav-color:hover{
+    border-radius: 5px;
+    background-color: rgb(6, 163, 210);
+    padding-left: 35px;
+    padding-right: 35px;
+    transition: background-color 0.5s, padding 0.5s;
+    color: #fff!important;
+}
+
+.nav-color.active{
+    border-radius: 5px;
+    background-color: rgb(6, 163, 210);
+    padding-left: 35px;
+    padding-right: 35px;
+    transition: background-color 0.5s, padding 0.5s;
+    color: #fff!important;
+}
+
+.htitle-color{
+  color: rgb(146, 196, 240) !important;
+  font-size: 22px !important;
+}
+
+.header-title{
+
+  height: 55px;
+  color: rgb(146, 196, 240);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+ align-items: center;
+
+}
+.navigation{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: aliceblue;
+  
+}
+
+.button-header{
+
+  margin-left: 50px;
+  margin-right: 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: aliceblue;
+  color:rgb(6, 163, 210);
+  
+}
+
+.button-header:hover{
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(6, 163, 210);
+  padding-left: 35px;
+  padding-right: 35px;
+  transition: background-color 0.5s, padding 0.5s;
+  color: aliceblue;
+}
+
+.right{
+
+  padding-left: none;
+  padding-top: none;
+}
+
